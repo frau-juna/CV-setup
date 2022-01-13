@@ -19,5 +19,17 @@ h6 {
 
 body {
     margin: 0;
-  }
+}
 
+.header {
+    padding: 48px 16px;
+    text-align: center;
+    background-color: #eee;
+}
+  
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+  
