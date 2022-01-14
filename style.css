@@ -45,6 +45,22 @@ body {
     position: relative;
 }
 
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black
+}
+
+.header {
+  padding: 3rem 1rem;
+  padding-top: 4.5rem;
+  text-align: center;
+  background-image: linear-gradient(235deg, snow, aqua);
+  position:relative;
+}
+
 .heading-group {
   font-size: 4rem;
 }
@@ -63,7 +79,7 @@ body {
   top: 1rem;
   padding: 0.5rem;
   border-radius: 0.25rem;
-  background: plum;
+  background: aqua;
   color: black;
 }
 
@@ -102,13 +118,11 @@ body {
 }
 
 .nav-link:hover {
-  color: black;
-  background-color: lightgray;
+  background-color: blue;
 }
 
 .nav-link:active {
-  color: white;
-  background-color: grey;
+  blackground-color: blueviolet;
 }
 
 @media screen and (min-width: 768px) {
@@ -134,7 +148,7 @@ body {
 }
 
 .main > * {
-  border-top: 0.125rem solid grey;
+  border-top: 0.125rem solid aqua;
   padding: 0 1rem;
 }
 
@@ -160,4 +174,18 @@ body {
     justify-content: space-between;
   }
 }
-  
+
+.footer {
+  margin-top: 3rem;
+  background-color: aqua;
+  padding: 2rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 0;
+}
+
+.footer-link {
+  color: black;
+}
