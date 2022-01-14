@@ -66,6 +66,21 @@ body {
   color: black;
 }
 
+@media screen and (min: width 992px) {
+  .hire-me {
+    position: fixed;
+  }
+}
+
+@media print {
+  .hire-me  []: none;
+}
+
+  .navigation {
+    display: none;
+  }
+
+
 .nav-link {
   padding: 0.25rem 0.5rem;
   color: black;
