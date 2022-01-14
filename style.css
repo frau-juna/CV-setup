@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   font-family: "Oswald", sans-serif;
-  color:royalblue;
+  color: navy;
 }
 
 body {
@@ -39,19 +39,11 @@ body {
   background-color: royalblue;
 }
 
-a,
-a:link,
-a:hover,
-a:visited,
-a:active {
-color: black;
-}
-
 .header {
   padding: 3rem 1rem;
   padding-top: 4.5rem;
   text-align: center;
-  background-image: linear-gradient(235deg, snow, rgb(143, 142, 142));
+  background-image: linear-gradient(235deg, snow, royalblue);
   position:relative;
 }
 
@@ -128,7 +120,7 @@ color: black;
 .main {
   max-width: 60ch;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .main > * + * {
@@ -148,6 +140,12 @@ color: black;
 
 .main > *:first-child {
   border-top: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  
 }
 
 .article-heading {
@@ -182,5 +180,5 @@ color: black;
 }
 
 .footer-link {
-  color: navy;
+  color: white;
 }
