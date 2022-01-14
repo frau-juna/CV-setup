@@ -73,13 +73,14 @@ body {
 }
 
 @media print {
-  .hire-me  []: none;
-}
+  .hire-me {
+    display: none;
+  }
 
   .navigation {
     display: none;
   }
-
+}
 
 .nav-link {
   padding: 0.25rem 0.5rem;
