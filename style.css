@@ -69,11 +69,6 @@ body {
   color: white;
 }
 
-.hire-me a {
-  text-decoration: none;
-}
-
-
 @media screen and (min-width: 992px) {
   .hire-me {
     position: fixed;
@@ -150,19 +145,17 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  
 }
 
-article h2 {
-  position: relative;
-  left: -1rem;
+.article-heading {
+    position: relative;
+    left: -1rem;
 }
  
 .experience-header {
   display: flex;
   flex-direction: column;
-}
-.experience-header .experience-subheading {
-  min-width: 9rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -174,7 +167,7 @@ article h2 {
   }
 }
 
-footer {
+.footer {
   margin-top: 3rem;
   background-color: royalblue;
   padding: 2rem;
